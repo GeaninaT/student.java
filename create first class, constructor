@@ -1,0 +1,62 @@
+package ro.fastrackit.classroom;
+
+import java.time.LocalDate;
+
+public class STUDENT {
+    private String lastName;
+    private String firstName;
+    private LocalDate dateOfBirth;
+    private String emailadress;
+    private Float grade;
+    private Boolean finishedclass;
+
+    public Student(String lastName, String firstName,
+                   LocalDate dateOfBirth) {
+
+        this.lastName = lastName;
+        this.firstName = firstName;
+        this.dateOfBirth = dateOfBirth;
+
+    }
+
+    public static void main(String[] args) {
+
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public LocalDate getDateOfBirth() {
+        return dateOfBirth
+    }
+
+    public String getEmailadress() {
+        return emailadress;
+
+    }
+
+    public void setEmailadress(String emailAdress) {
+        this.emailadress = emailAdress;
+
+    }
+
+    public Float getGrade() {
+        return grade;
+    }
+
+    public void setGrade(Float grade) {
+        this.grade = grade;
+    }
+
+    public boolean getFinishedClass() {
+        return finishedclass;
+    }
+
+    public void setFinishedclass(boolean finishedclass) {
+        this.finishedClass = finishedClass;
+    }
